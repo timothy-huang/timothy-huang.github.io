@@ -1,0 +1,146 @@
+ <!DOCTYPE html>
+
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Abhaya+Libre:500" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="assets/css/jquery.fullPage.css" />
+        <link href="assets/css/styles.css" rel="stylesheet" type="text/css">
+        <title>Timothy Huang</title>
+    </head>
+
+    <body>
+        <div id="fullPage">
+            <div id="p1" class="section" data-anchor="page1"> <!-- home view -->
+                <div class="home">
+                    <div class="left-container">
+                        <img id="left-container-bg" src="assets/img/left-container-bg.png">
+                        <div id="picture-wrapper"><img id="profile-picture" src="https://ih1.redbubble.net/image.120730135.7037/st%2Csmall%2C215x235-pad%2C210x230%2Cf8f8f8.lite-1u1.jpg"></div>
+                    </div>
+                    <div class="right-container">
+                        <div id="intro-wrapper1" class="header-text home-header">Hi,</div>
+                        <div id="intro-wrapper1" class="header-text home-header">I'm Tim.</div>
+                        <div class="nav-container">
+                            <ul>
+                                <li class="nav-link"><a href="#page2">About Me</a></li>
+                                <li class="nav-link"><a href="#page3">My Projects</a></li>
+                                <li class="nav-link"><a href="#page4">Contact Me</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="p2" class="section" data-anchor="page2"> <!-- about view -->
+                <div class="about">
+                    <div class="side-icons-wrapper"><img id="side-icons" src="assets/img/side-icons.png"></div>
+                    <div class="text-container">
+                        <div class="header-text section-header">Hey there!</div>
+                        <div class="body-text">I’m an undergraduate at UC Berkeley studying <b>computer science</b> and <b>business</b>. I’m interested in consulting, web development, virtual reality, artificial intelligence, and machine learning. I may end up narrowing down my interests in the future, but for now, I’m just looking for opportunities to check everything out!</div>
+                        <br>
+                        <div class="body-text">I’m currently a consulting committee member at Berkeley Phi Beta Lambda as well as a web developer in Pioneers in Engineering.</div>
+                        <br>
+                        <div class="body-text">In my free time, I like going to hackathons and ideathons. Let me know if you want to build something together! Otherwise, you’ll probably catch me playing games. Recently, I’ve been playing Fortnite, but I also play CS:GO and plenty of RPG/Indie games as well.</div>
+                    </div>
+                </div>
+            </div>
+            <div id="p3" class="section" data-anchor="page3">
+                <div class="projects">
+                    <div id="projects-header" class="header-text section-header">Things I've Built</div>
+                    <div class="projects-container">
+                        <div class="project" id="proj1"><div class="project-name"><b>DirectCal</b></div><img class="projImage" src="assets/img/directcal.jpg">
+                            <div class='project-desc'>
+                                <div class="project-date"><b>Oct 2017</b></div>
+                                <ul>
+                                    <li>DirectCal is an <b>image-to-text app</b> that directly inputs event information from a photograph into Google Calendar</li>
+                                    <li>I implemented the backend API integrations</li>
+                                    <li>Created with <b>Python, Google Calendar API, Google Vision API, and Google Cloud Platform</b> at CalHacks 4.0</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="project" id="proj2"><div class="project-name"><b>Urban Adventurer</b></div><img class="projImage" src="assets/img/urbanadventurer.png">
+                            <div class='project-desc'>
+                                <div class="project-date"><b>Feb 2018</b></div>
+                                <ul>
+                                    <li>My team built a prototype for a <b>crowd-sourced create-your-own itinerary app</b></li>
+                                    <li>I lead the development for the project, implementing the Google Maps API and creating the front-end website</li>
+                                    <li>Created with <b>Google Maps API, HTML, CSS, and Javascript</b> at SLOHacks</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="project" id="proj3" ><div class="project-name"><b>Ideate</b></div><img class="projImage" src="assets/img/ideate.png">
+                            <div class='project-desc'>
+                                <div class="project-date"><b>March 2018</b></div>
+                                <ul>
+                                    <li>Ideate is a <b>virtual whiteboard canvas</b> where users can place and reposition sticky notes</li>
+                                    <li>I lead the development for the project, which was created entirely on the front-end without plugins (besides JQuery)</li>
+                                    <li>Created with <b>HTML, CSS, and Javascript</b> at LA Hacks</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="project" id="proj4"><div class="project-name"><b>2D Roguelike</b></div><img class="projImage" src="assets/img/roguelike.png">
+                            <div class='project-desc'>
+                                <div class="project-date"><b>Feb-March 2018</b></div>
+                                <ul>
+                                    <li>I created a <b>procedurally generated Roguelike</b> based on a random seed</li>
+                                    <li>The game is 2-player, and players can win the game by collecting trees</li>
+                                    <li>I implemented the randomizing algorithm for generating rooms and hallways across the map</li>
+                                    <li>Created with <b>Java</b> in CS61B</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="project" id="proj5"><div class="project-name"><b>BearMaps</b></div><img class="projImage" src="assets/img/bearmaps.png">
+                            <div class='project-desc'>
+                                <div class="project-date"><b>Feb-March 2018</b></div>
+                                <ul>
+                                    <li>BearMaps is a <b>mapping application</b> that outputs shortest path directions within the Berkeley area</li>
+                                    <li>I implemented the rastering methods for correct placement of map tiles as well as the A* algorithm for finding shortest paths</li>
+                                    <li>Created with <b>Java</b> in CS61B</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="project" id="proj6"><div class="project-name"><b>This Website!</b></div><img class="projImage" src="https://ih1.redbubble.net/image.120730135.7037/st%2Csmall%2C215x235-pad%2C210x230%2Cf8f8f8.lite-1u1.jpg">
+                            <div class='project-desc'>
+                                <div class="project-date"><b>April 2018</b></div>
+                                <ul>
+                                    <li>This is the second iteration of my personal website, yay!</li>
+                                    <li>Designed/prototyped using Figma and built from scratch with the help of a few plugins</li>
+                                    <li>Created with <b>HTML, CSS, and Javascript</b></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="p4" class="section" data-anchor="page4">
+                <div class="contact">
+                    <div class="header-text section-header">Contact Me</div>
+                    <div class="contact-info-container">
+                        <div class="titles-container">
+                            <div class="title"><b>LinkedIn:</b></div>
+                            <br>
+                            <div class="title"><b>GitHub:</b></div>
+                            <br>
+                            <div class="title"><b>Email:</b></div>
+                            <br>
+                            <div class="title"><b>Resume:</b></div>
+                        </div>
+                        <div class="links-container">
+                            <div><a class="contact-link" href="https://www.linkedin.com/in/timhuangg/" target="_blank">linkedin.com/in/timhuangg</a></div>
+                            <br>
+                            <div><a class="contact-link" href="https://github.com/timothy-huang" target="_blank">github.com/timothy-huang</a></div>
+                            <br>
+                            <div class="contact-link" target="_blank">thuang87[at]berkeley[dot]com</div>
+                            <br>
+                            <div><a class="contact-link" href="https://www.dropbox.com/s/5z6bmxj6ufyou2n/Timothy%20Huang%20-%20Resume.pdf?dl=0" target="_blank">[PDF]</a></div>
+                        </div>
+                    </div>
+                    <img id="phone-icon" src="assets/img/phone.svg">
+                </div>
+            </div>
+        </div>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.fullPage.js"></script>
+        <script type="text/javascript" src="assets/js/scripts.js"></script>
+    </body>
+</html>
