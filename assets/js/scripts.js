@@ -1,8 +1,23 @@
 $(document).ready(function() {
-	$('#fullPage').fullpage({
-        navigation: true,
-        navigationPosition: 'right'
-    });
+	var winWidth = $(window).width();
+
+	$(window).resize(function(){
+	    winWidth = $(window).width();
+		if (winWidth > 1024) {
+			$.fn.fullpage.setResponsive(false);
+			$("#projects-header").text("Things I've Built");
+		} else {
+			$.fn.fullpage.setResponsive(true);
+			$("#projects-header").text("Projects");
+		}
+	});
+
+	if (winWidth > 1024) {
+		$('#fullPage').fullpage({
+			navigation: true,
+			navigationPosition: 'right'
+		});
+	}
 
     //Jquery Function Number 1
     $(".home-header").fadeIn(1500);

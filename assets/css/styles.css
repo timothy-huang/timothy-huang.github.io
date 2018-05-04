@@ -104,7 +104,8 @@ body {
 
 #side-icons {
     margin-top: 80px;
-    padding: 40px 40px 40px 40px;
+    margin-right: 20px;
+    padding: 20px 20px 20px 20px;
     height: 500px;
 }
 
@@ -346,8 +347,29 @@ li {
     border-bottom: 3px solid #FF0000;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1024px) {
     #side-icons {
         display: none;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+    html {
+        width: 100%;
+        height: auto;
+    }
+
+    body {
+        width: 100%;
+        height: auto;
+    }
+
+    #fullPage {
+        width: 100%;
+        height: auto;
+    }
+
+    .projects-container {
+        width: 600px;
     }
 }
