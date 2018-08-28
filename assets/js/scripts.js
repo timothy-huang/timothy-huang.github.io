@@ -40,6 +40,4 @@ $(document).ready(function() {
 		window.open('https://devpost.com/software/ideate', '_blank');
 	});
 
-	//Jquery Function Number 6
-	$("#profile-picture").css("transform", "rotate(360deg)");
 });
